@@ -59,7 +59,7 @@ function App() {
     content = <Article title='main' body='Hello, main'></Article> 
   } else if (mode==='read') {
     for (let i = 0; i < topics.length; i++) {
-      if(topics[i].id === id) {
+      if(topics[i].id == id) {
         title = topics[i].title
         body = topics[i].body
       }
